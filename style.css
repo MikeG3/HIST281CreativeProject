@@ -7,9 +7,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
+	margin: auto;
 }
 
 h1, h2, h3, h4 {
@@ -18,6 +16,8 @@ h1, h2, h3, h4 {
 
 table {
 	color: white;
+	text-align: center;
+	margin: auto;
 }
 
 /*
