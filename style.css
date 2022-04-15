@@ -1,0 +1,10 @@
+body {
+	background-color:#000000;
+	color: white;
+	font-size: large;
+	font-family: Consolas,monaco,monospace; 
+	/* The HTML body does not by default cover the full with nor height */
+	width: 100%;	/* May need to use javascript bodyclassORid.witdh = window.innerheight;  bodyclassORid.witdh = window.innerwidtht; */ 
+	padding: 0px;
+	margin: 0px;
+}
