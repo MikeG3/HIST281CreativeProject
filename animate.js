@@ -7,6 +7,7 @@ var frame = 0;
 
 function animate() {
   frame++;
+  animateTitle();
   if (frame%9==0){
     document.getElementById("pic1").innerHTML = getColoredParis() ;
     document.getElementById("pic7").innerHTML = getColoredWizard() ;
