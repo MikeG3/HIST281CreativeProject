@@ -13,29 +13,71 @@ function updateColors(){
 }//close function update colors
 
 function getColoredParis(){ 
-    
-    var colorParis = getParis();
+    updateColors();
+    var modedImage = getParis();
     var newColor = updateColors();
-    return colorParis.replace("fill=\"#ffffff\"", newColor); 
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
 }//close function
 
 function getColoredJournals(){ 
     updateColors();
-    var colorJournals = getJournals();
+    var modedImage = getJournals();
     var newColor = updateColors();
-    return colorJournals.replace("fill=\"#ffffff\"", newColor); 
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
 }//close function
 
 function getColoredPortrait(){ 
     updateColors();
-    var colorPortrait = getPortrait();
+    var modedImage = getPortrait();
     var newColor = updateColors();
-    return colorPortrait.replace("fill=\"#ffffff\"", newColor); 
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
 }//close function
 
 function getColoredModernTimes(){ 
     updateColors();
-    var colorModernTimes = getModernTimes();
+    var modedImage = getModernTimes();
     var newColor = updateColors();
-    return colorModernTimes.replace("fill=\"#ffffff\"", newColor); 
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredPass(){ 
+    updateColors();
+    var modedImage = getPass();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredFires(){ 
+    updateColors();
+    var modedImage = getFires();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredPainter(){ 
+    updateColors();
+    var modedImage = getPainter();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredJournals2(){ 
+    updateColors();
+    var modedImage = getJournals2();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredWizard(){ 
+    updateColors();
+    var modedImage = getWizard();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredManifest(){ 
+    updateColors();
+    var modedImage = getManifest();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
 }//close function

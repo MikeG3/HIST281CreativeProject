@@ -9,17 +9,27 @@ function animate() {
   frame++;
   if (frame%9==0){
     document.getElementById("pic1").innerHTML = getColoredParis() ;
+    document.getElementById("pic7").innerHTML = getColoredWizard() ;
   }//close animate title if mod 10
   if (frame%20==0){
     document.getElementById("pic2").innerHTML = getColoredJournals() ;
+    document.getElementById("pic5").innerHTML = getColoredManifest() ;
   }//close animate title if mod 10
   if (frame%5==0){
-    document.getElementById("pic3").innerHTML = getColoredPortrait() ;
+    document.getElementById("pic3").innerHTML = getColoredPainter() ;
   }
   if (frame%13==0){
     document.getElementById("pic4").innerHTML = getColoredModernTimes() ;
+    document.getElementById("pic8").innerHTML = getColoredPortrait() ;
   }
-  
+  if (frame%33==0){
+    document.getElementById("pic10").innerHTML = getColoredPass() ;
+  }
+  if (frame%2==0){
+    document.getElementById("pic9").innerHTML = getColoredJournals2() ;
+    document.getElementById("pic6").innerHTML = getColoredFires() ;
+  }
+
   //RESET
   if (frame == 256){
     frame = 0;
