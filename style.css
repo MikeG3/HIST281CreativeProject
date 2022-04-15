@@ -1,10 +1,45 @@
 body {
 	background-color:#000000;
+	text-align: center;
 	color: white;
 	font-size: large;
-	font-family: Consolas,monaco,monospace; 
-	/* The HTML body does not by default cover the full with nor height */
-	width: 100%;	/* May need to use javascript bodyclassORid.witdh = window.innerheight;  bodyclassORid.witdh = window.innerwidtht; */ 
+	font-family: Arial,Consolas,monaco,monospace; 
 	padding: 0px;
 	margin: 0px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
+
+table {
+	color: white;
+}
+
+/*
+#pic1, #pic2, #pic3, #pic4 {
+	color: white;
+	filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+	fill: #1155EE;
+}
+
+#pic1 {
+	color: white;
+	filter: invert(500%) sepia(791%) saturate(1200%) hue-rotate(45deg) brightness(400%) contrast(300%);
+}
+
+#pic2 {
+	color: white;
+	filter: invert(50%) sepia(200%) saturate(1200%) hue-rotate(25deg) brightness(700%) contrast(300%);
+}
+
+#pic3 {
+	color: white;
+	filter: invert(225%) sepia(600%) saturate(2476%) hue-rotate(100deg) brightness(118%) contrast(600%);
+}
+
+#pic4 {
+	color: white;	
+	fill: #1155EE;
+}
+*/
