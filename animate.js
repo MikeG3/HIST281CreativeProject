@@ -12,9 +12,11 @@ function animate() {
     document.getElementById("pic1").innerHTML = getColoredParis() ;
     document.getElementById("pic7").innerHTML = getColoredWizard() ;
   }//close animate title if mod 10
+  if (frame%10==0){
+    document.getElementById("pic5").innerHTML = getColoredManifest() ;
+  }//close animate title if mod 10
   if (frame%20==0){
     document.getElementById("pic2").innerHTML = getColoredJournals() ;
-    document.getElementById("pic5").innerHTML = getColoredManifest() ;
   }//close animate title if mod 10
   if (frame%5==0){
     document.getElementById("pic3").innerHTML = getColoredPainter() ;
