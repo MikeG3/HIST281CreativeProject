@@ -20,30 +20,30 @@ table {
 	margin: auto;
 }
 
-/*
-#pic1, #pic2, #pic3, #pic4 {
-	color: white;
-	filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
-	fill: #1155EE;
+#intro1 {
+	color: red;
 }
 
-#pic1 {
-	color: white;
-	filter: invert(500%) sepia(791%) saturate(1200%) hue-rotate(45deg) brightness(400%) contrast(300%);
+#intro2 {
+	color: orangered;
 }
 
-#pic2 {
-	color: white;
-	filter: invert(50%) sepia(200%) saturate(1200%) hue-rotate(25deg) brightness(700%) contrast(300%);
+#intro3 {
+	color: orange;
 }
 
-#pic3 {
-	color: white;
-	filter: invert(225%) sepia(600%) saturate(2476%) hue-rotate(100deg) brightness(118%) contrast(600%);
+#intro4 {
+	color: yellow;
 }
 
-#pic4 {
-	color: white;	
-	fill: #1155EE;
+#intro5 {
+	color: yellowgreen;
 }
-*/
+
+#intro6 {
+	color: blue;
+}
+
+#intro7 {
+	color: indigo;
+}
