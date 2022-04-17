@@ -4,14 +4,16 @@ body {
 	color: white;
 	font-size: large;
 	font-family: Arial,Consolas,monaco,monospace; 
-	padding: 0px;
-	margin: 0px;
 	display: block;
 	margin: auto;
+	
+    font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4 {
 	text-align: center;
+	
+    font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 table {
@@ -29,7 +31,9 @@ table {
 #intro6 { color: blue; }
 #intro7 { color: indigo; }
 #intro8 { color: violet; }
-#intro8 { color: pink; }
+#intro9 { color: pink; }
+
+#intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro9{ width: 66%; margin: auto;}
 
 #chelm1 { color: white; }
 #chelm2 { color: gray; }
