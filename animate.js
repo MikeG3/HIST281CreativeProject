@@ -1,7 +1,4 @@
 //GLOBAL VARIABLES
-const backgroundColor = "#000000";
-const windowX = window.innerWidth;
-const windowY = window.innerHeight;
 var frame = 0;
 
 

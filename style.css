@@ -18,32 +18,14 @@ table {
 	color: white;
 	text-align: center;
 	margin: auto;
+	width: 66%;
 }
 
-#intro1 {
-	color: red;
-}
-
-#intro2 {
-	color: orangered;
-}
-
-#intro3 {
-	color: orange;
-}
-
-#intro4 {
-	color: yellow;
-}
-
-#intro5 {
-	color: yellowgreen;
-}
-
-#intro6 {
-	color: blue;
-}
-
-#intro7 {
-	color: indigo;
-}
+#intro1 { color: red; }
+#intro2 { color: orangered; }
+#intro3 { color: orange; }
+#intro4 { color: yellow; }
+#intro5 { color: yellowgreen; }
+#intro6 { color: blue; }
+#intro7 { color: indigo; }
+#intro8 { color: violet; }
