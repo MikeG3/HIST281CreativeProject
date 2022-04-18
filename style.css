@@ -8,12 +8,14 @@ body {
 	margin: auto;
 	
     font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: Georgia, serif;
 }
 
 h1, h2, h3, h4 {
 	text-align: center;
 	
     font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: Georgia, serif;
 }
 
 table {
@@ -29,15 +31,23 @@ table {
 #intro4 { color: yellow; }
 #intro5 { color: yellowgreen; }
 #intro6 { color: blue; }
-#intro7 { color: indigo; }
+#intro6b { color: rgb(59, 59, 66); }
+#intro7 { color: rgb(59, 59, 66); }
 #intro8 { color: violet; }
 #intro9 { color: pink; }
 
-#intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro9{ width: 66%; margin: auto;}
+#intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro9{ width: 66%; margin: auto; }
 
 #chelm1 { color: white; }
 #chelm2 { color: gray; }
 #chelm3 { color: white; }
+
+#covid1 { color:rgb(202, 26, 26); }
+#covid2 { color:rgb(202, 26, 26); }
+#covid3 { color:rgb(202, 26, 26); }
+
+
+#covid1, #covid2, #covid3 { width: 66%; margin: auto; }
 
 #closer {
 	color: aqua;

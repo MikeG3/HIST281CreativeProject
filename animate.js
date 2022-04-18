@@ -23,11 +23,20 @@ function animate() {
     document.getElementById("pic8").innerHTML = getColoredPortrait() ;
   }
   if (frame%33==0){
-    document.getElementById("pic10").innerHTML = getColoredPass() ;
+    document.getElementById("pic10").innerHTML = getColoredHorse() ;
   }
   if (frame%2==0){
     document.getElementById("pic9").innerHTML = getColoredJournals2() ;
     document.getElementById("pic6").innerHTML = getColoredFires() ;
+  }
+  if (frame%4==0){
+    document.getElementById("pic11").innerHTML = getColoredPepper() ;
+  }
+  if (frame%25==0){
+    document.getElementById("pic12").innerHTML = getColoredPass() ;
+  }
+  if (frame%15==0){
+    document.getElementById("pic13").innerHTML = getColoredCave() ;
   }
 
   //RESET

@@ -81,3 +81,24 @@ function getColoredManifest(){
     var newColor = updateColors();
     return modedImage.replace("fill=\"#ffffff\"", newColor); 
 }//close function
+
+function getColoredHorse(){ 
+    updateColors();
+    var modedImage = getHorse();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredCave(){ 
+    updateColors();
+    var modedImage = getCave();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredPepper(){ 
+    updateColors();
+    var modedImage = getPepper();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
