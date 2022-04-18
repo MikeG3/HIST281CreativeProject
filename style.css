@@ -25,6 +25,14 @@ table {
 	width: 66%;
 }
 
+tr {
+	height: 30%;
+}
+
+td {
+	width: 30%;
+}
+
 #intro1 { color: red; }
 #intro2 { color: orangered; }
 #intro3 { color: orange; }
@@ -45,9 +53,9 @@ table {
 #covid1 { color:rgb(202, 26, 26); }
 #covid2 { color:rgb(202, 26, 26); }
 #covid3 { color:rgb(202, 26, 26); }
+#covid4 { color:rgb(202, 26, 26); }
 
-
-#covid1, #covid2, #covid3 { width: 66%; margin: auto; }
+#covid1, #covid2, #covid3, #covid4 { width: 66%; margin: auto; }
 
 #closer {
 	color: aqua;

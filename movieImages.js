@@ -1,7 +1,5 @@
 var red = 0, green = 0, blue = 0;
 
-const movieImage = ["pic1","pic2","pic3","pic4"];
-
 function updateColors(){
     red += 1;
     blue += 3;
@@ -92,6 +90,20 @@ function getColoredHorse(){
 function getColoredCave(){ 
     updateColors();
     var modedImage = getCave();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredCave1(){ 
+    updateColors();
+    var modedImage = getCave1();
+    var newColor = updateColors();
+    return modedImage.replace("fill=\"#ffffff\"", newColor); 
+}//close function
+
+function getColoredCave2(){ 
+    updateColors();
+    var modedImage = getCave2();
     var newColor = updateColors();
     return modedImage.replace("fill=\"#ffffff\"", newColor); 
 }//close function

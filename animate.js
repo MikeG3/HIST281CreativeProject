@@ -5,18 +5,21 @@ var frame = 0;
 function animate() {
   frame++;
   animateTitle();
+  //Animate movie icons
   if (frame%9==0){
     document.getElementById("pic1").innerHTML = getColoredParis() ;
     document.getElementById("pic7").innerHTML = getColoredWizard() ;
   }//close animate title if mod 10
   if (frame%10==0){
     document.getElementById("pic5").innerHTML = getColoredManifest() ;
+    document.getElementById("pic13").innerHTML = getColoredCave1() ;
   }//close animate title if mod 10
   if (frame%20==0){
     document.getElementById("pic2").innerHTML = getColoredJournals() ;
   }//close animate title if mod 10
   if (frame%5==0){
     document.getElementById("pic3").innerHTML = getColoredPainter() ;
+    document.getElementById("pic15").innerHTML = getColoredCave2() ;
   }
   if (frame%13==0){
     document.getElementById("pic4").innerHTML = getColoredModernTimes() ;
@@ -36,8 +39,19 @@ function animate() {
     document.getElementById("pic12").innerHTML = getColoredPass() ;
   }
   if (frame%15==0){
-    document.getElementById("pic13").innerHTML = getColoredCave() ;
+    document.getElementById("pic14").innerHTML = getColoredCave() ;
   }
+
+  
+  //Animate Covid Title
+  if (frame==1 || frame==90 || frame==180 ){
+    animateCovidRed() ;
+  }
+  
+  if (frame==45 || frame==135 || frame==205){
+    animateCovidWhite() ;
+  }
+  
 
   //RESET
   if (frame == 256){

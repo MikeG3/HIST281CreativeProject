@@ -18,3 +18,12 @@ function animateTitle(){
         document.getElementById(letters[i]).style.color = color;
     }//close for each letter
 }//close function animate title
+
+//Animate Covid Title
+function animateCovidRed(){
+    document.getElementById("covid4").style.color = "rgb(202, 26, 26)";
+}//close animate covid
+
+function animateCovidWhite(){
+    document.getElementById("covid4").style.color = "rgb(255, 255, 255)";
+}//close animate covid
