@@ -58,7 +58,7 @@ function animate() {
     frame = 0;
   }//close reset frame counter if 200
   
-  console.log("frame = " + frame);
+  //console.log("frame = " + frame);
   requestAnimationFrame(animate);
     
 } //close function play tic tac toe
