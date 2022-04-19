@@ -55,11 +55,6 @@ td {
 	background-color: white;
 }
 
-#covid1 { color:rgb(202, 26, 26); }
-#covid2 { color:rgb(202, 26, 26); }
-#covid3 { color:rgb(202, 26, 26); }
-#covid4 { color:rgb(202, 26, 26); }
-
 #covid1, #covid2, #covid3, #covid4 { width: 66%; margin: auto; }
 
 #closer {
