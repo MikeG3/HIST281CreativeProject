@@ -50,6 +50,11 @@ td {
 #chelm2 { color: gray; }
 #chelm3 { color: white; }
 
+#covidSection {
+	color:rgb(202, 26, 26);
+	background-color: white;
+}
+
 #covid1 { color:rgb(202, 26, 26); }
 #covid2 { color:rgb(202, 26, 26); }
 #covid3 { color:rgb(202, 26, 26); }
