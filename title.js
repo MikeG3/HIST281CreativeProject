@@ -20,10 +20,25 @@ function animateTitle(){
 }//close function animate title
 
 //Animate Covid Title
-function animateCovidRed(){
-    document.getElementById("covid4").style.color = "rgb(202, 26, 26)";
+function warningRed1(){
+    document.getElementById("fake1").style.color = "rgb(202, 26, 26)";
 }//close animate covid
 
-function animateCovidWhite(){
-    document.getElementById("covid4").style.color = "rgb(255, 255, 255)";
+function warningWhite1(){
+    document.getElementById("fake1").style.color = "rgb(255, 255, 255)";
+}//close animate covid
+
+function warningRed2(){
+    document.getElementById("fake2").style.color = "rgb(202, 26, 26)";
+}//close animate covid
+
+function warningWhite2(){
+    document.getElementById("fake2").style.color = "rgb(255, 255, 255)";
+}//close animate covid
+function warningRed3(){
+    document.getElementById("fake3").style.color = "rgb(202, 26, 26)";
+}//close animate covid
+
+function warningWhite3(){
+    document.getElementById("fake3").style.color = "rgb(255, 255, 255)";
 }//close animate covid

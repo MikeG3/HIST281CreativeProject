@@ -44,24 +44,33 @@ function animate() {
 
   
   //Animate Covid Title
-  if (frame==1 || frame==90 || frame==180 ){
-    animateCovidRed() ;
+  if (frame==1 || frame==50 || frame==99 || frame==148 || frame==197 || frame==255 ){
+    warningRed1();
+    warningWhite2();
+    warningRed3();
   }
   
-  if (frame==45 || frame==135 || frame==205){
-    animateCovidWhite() ;
+  if (frame==25 || frame==75 || frame==124 || frame==175 || frame==225 ){
+    warningWhite1();
+    warningRed2();
+    warningWhite3();
   }
-  
+
+  //Animate Caduceus
+
+
 
   //RESET
   if (frame == 256){
     frame = 0;
   }//close reset frame counter if 200
   
-  //console.log("frame = " + frame);
+  //.console.log("frame = " + frame);
   requestAnimationFrame(animate);
     
 } //close function play tic tac toe
 
 //CODE TO BE EXECUTED
 animate();
+
+
