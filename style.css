@@ -68,4 +68,7 @@ td {
 #closer {
 	color: aqua;
 	font-family: cursive;
+	width: 75%;
+	text-align: center;
+	margin: auto;
 }
