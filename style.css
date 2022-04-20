@@ -57,6 +57,11 @@ td {
 
 #covid1, #covid2, #covid3, #covid4 { width: 66%; margin: auto; }
 
+#bar1, #bar2, #bar3, #bar4, #bar5{
+	margin: 0;
+	padding: 0;
+}
+
 #closer {
 	color: aqua;
 	font-family: cursive;

@@ -43,22 +43,48 @@ function animate() {
   }
 
   
-  //Animate Covid Title
+  //Animate Covid
   if (frame==1 || frame==50 || frame==99 || frame==148 || frame==197 || frame==255 ){
+   //Animate Covid Title
     warningRed1();
     warningWhite2();
     warningRed3();
+    //Animate Bars
+    bar1red();
+    bar2yellow();
+    bar3red();
+    bar4yellow();
+    bar5red();
+    bar6yellow();
+    bar7red();
+    bar8yellow();
+    bar9red();
+    bar10yellow();
+    bar11red();
+    bar12yellow();
   }
   
   if (frame==25 || frame==75 || frame==124 || frame==175 || frame==225 ){
+    //Animate Covid Title
     warningWhite1();
     warningRed2();
     warningWhite3();
+    //Animate Bars
+    bar1yellow();
+    bar2red();
+    bar3yellow();
+    bar4red();
+    bar5yellow();
+    bar6red();
+    bar7yellow();
+    bar8red();
+    bar9yellow();
+    bar10red();
+    bar11yellow();
+    bar12red();
   }
 
-  //Animate Caduceus
-
-
+ 
 
   //RESET
   if (frame == 256){
