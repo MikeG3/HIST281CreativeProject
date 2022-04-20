@@ -41,10 +41,13 @@ td {
 #intro6 { color: blue; }
 #intro6b { color: rgb(59, 59, 66); }
 #intro7 { color: rgb(59, 59, 66); }
-#intro8 { color: violet; }
-#intro9 { color: pink; }
+#intro8 { color: rgb(216, 57, 216); }
+#intro9 { color: rgb(165, 59, 165); }
+#intro10 { color: rgb(169, 59, 165); }
+#intro11 { color: rgb(165, 59, 165); } 
+#intro12 { color: pink; }
 
-#intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro9{ width: 66%; margin: auto; }
+#intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro9, #intro10, #intro11, #intro12{ width: 66%; margin: auto; }
 
 #chelm1 { color: white; }
 #chelm2 { color: gray; }
